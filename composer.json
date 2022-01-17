@@ -36,6 +36,12 @@
             "homepage": "https://github.com/Payum/PayumBundle/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/madika/Payum"
+        }
+    ],
     "require": {
         "php": "^7.2 || ^8.0",
         "payum/core": "^1.6",
@@ -84,11 +90,5 @@
     },
     "config": {
         "bin-dir": "bin"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/madika/Payum"
-        }
-    ]
+    }
 }
