@@ -13,7 +13,7 @@ abstract class PayumController extends AbstractController
      */
     protected function getPayum()
     {
-        return $this->get('payum');
+        return $this->container->get('payum');
     }
 
     public static function getSubscribedServices(): array
